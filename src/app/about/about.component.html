@@ -1,0 +1,16 @@
+<h1>About</h1>
+
+<section>
+  <p>
+    This demo is a test for AI integration in <a href="https://sgi.siemens.com/home">SGI</a>
+  </p>
+
+  <p>
+    The project is using the tensorflow handguestures model to recognize hands and 
+    their features. After that, we pass the output to
+    <a href="https://github.com/andypotato/fingerpose">fingerpose</a> which
+    estimates the hand sign. Once we recognize an action, we emit it via a
+    BehaviorSubject. A component, subscribed to the BehaviorSubject processes
+    the user action.
+  </p>
+</section>
